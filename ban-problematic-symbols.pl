@@ -6,6 +6,7 @@ my %suggestion = (
     SKShapeNode => undef,
     UIColor     => 'SKColor',
     float       => 'CGFloat',
+    enum        => 'NS_ENUM',
 );
 
 my $regex = do {
