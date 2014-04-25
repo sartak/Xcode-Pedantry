@@ -17,7 +17,6 @@ for my $file (@files) {
 
         if ($bad) {
             print qq{$file:$.: Tidy up that whitespace\n};
-            print;
             ++$errors;
         }
     }
