@@ -34,3 +34,6 @@ I don't feel particularly strongly about this one. Except in as much as consiste
 
 Notice that there is no whitespace before or after the `-` or `(UITableViewCell *)`. Also notice that there _is_ whitespace between types and their `*`.
 
+## [Use `instancetype`](https://github.com/sartak/Xcode-Pedantry/blob/master/use-instancetype.pl)
+
+clang automatically rewrites certain uses of `id` to the more useful `instancetype`. Instead of relying on that, better to be explicit.
